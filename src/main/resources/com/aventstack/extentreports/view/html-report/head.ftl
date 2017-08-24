@@ -14,7 +14,7 @@
 	<#if cdn == 'extentreports'>
 		<link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	<#else>
-		<link href='${ config.getValue('protocol') }://https://cdn.rawgit.com/roshanjohn/extentreports-java/1f9c022b/dist/css/extent.css' type='text/css' rel='stylesheet' />
+		<link href='${ config.getValue('protocol') }://cdn.rawgit.com/roshanjohn/extentreports-java/fdd434d6/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	</#if>
 	
 	<title>${ config.getValue('documentTitle') }</title>
