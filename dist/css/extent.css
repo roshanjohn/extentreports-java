@@ -279,6 +279,10 @@ nav ul i {
 	margin: 15px auto 5px;
 	text-align: center;
 }
+.chart-box > canvas {
+	-webkit-transform: scale(1.56);
+	transform: scale(1.56);
+}
 .doughnut-legend li span {
 	border-radius: 2px;
 	display: block;
